@@ -126,10 +126,13 @@ module.exports = function(grunt) {
 				tasks: 'css-core'
 			},
 			html: {
-				files: [ '*.html']
+				files: [ '*.html' ]
 			},
 			markdown: {
 				files: [ '*.md' ]
+			},
+			graphs: {
+				files: [ 'graphs/*/*' ]
 			},
 			options: {
 				livereload: true
