@@ -12,7 +12,9 @@
     "Hakim El Hattab <hakim.elhattab@gmail.com>"
   ],
   "dependencies": {
-    "headjs": "~1.0.3"
+    "headjs": "~1.0.3",
+    "cytoscape": "^2.7.8",
+    "ace-builds": "^1.2.5"
   },
   "repository": {
     "type": "git",
