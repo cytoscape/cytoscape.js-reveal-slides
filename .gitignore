@@ -11,3 +11,8 @@ node_modules/
 .sass-cache
 css/reveal.min.css
 js/reveal.min.js
+
+
+### Typings ###
+## Ignore downloaded typings
+typings

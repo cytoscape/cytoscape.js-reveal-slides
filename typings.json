@@ -1,0 +1,8 @@
+{
+  "globalDependencies": {
+    "ace": "registry:dt/ace#0.0.0+20160630235124",
+    "lodash": "registry:dt/lodash#4.14.0+20160830145422",
+    "node": "registry:dt/node#6.0.0+20160831021119",
+    "reveal": "registry:dt/reveal#3.3.0+20160709054742"
+  }
+}
