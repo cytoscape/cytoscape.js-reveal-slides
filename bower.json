@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "headjs": "~1.0.3",
-    "cytoscape": "^2.7.8",
+    "cytoscape": "^2.7.9",
     "ace-builds": "^1.2.5"
   },
   "repository": {
