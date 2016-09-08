@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 		sass: {
 			core: {
 				files: {
-					'css/reveal.css': 'css/reveal.scss',
+					'css/reveal.css': 'css/reveal.scss'
 				}
 			},
 			themes: {
@@ -132,7 +132,7 @@ module.exports = function(grunt) {
 				files: [ '*.md' ]
 			},
 			graphs: {
-				files: [ 'graphs/*/*' ]
+				files: [ 'lib/graphs/*/*' ]
 			},
 			options: {
 				livereload: true
