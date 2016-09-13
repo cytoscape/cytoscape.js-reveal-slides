@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"></meta>
+    <script src="../js/cytoscape/cytoscape.min.js"></script>
+    <script src="../js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/ace/theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/lodash/lodash.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/graph-code.css">
+</head>
+
+<body>
+    <div id="cy" class="cy-graph"></div>
+    <div id="editor" class="cy-editor"></div>
+    <!--https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals -->
+    `<script>${window.frameElement.textContent}</script>`
+    <script src="../js/editor.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

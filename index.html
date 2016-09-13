@@ -24,10 +24,23 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
 				<section>
-					<iframe class="stretch" src="/lib/graphs/graph1/graph1.html"></iframe>
+					<iframe class="stretch cy-iframe" src="lib/graphs/graph-template.html">
+var cy = cytoscape({
+	container: document.getElementById('cy'),
+	elements: [
+		{ data: { id: 'a' } },
+		{ data: { id: 'b' } },
+		{
+			data: {
+				id: 'ab',
+				source: 'a',
+				target: 'b'
+			}
+		}]
+});
+cy.layout({ name: 'grid' });
+					</iframe>
 				</section>
 			</div>
 		</div>

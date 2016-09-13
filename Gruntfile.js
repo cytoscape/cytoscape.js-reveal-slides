@@ -132,7 +132,7 @@ module.exports = function(grunt) {
 				files: [ '*.md' ]
 			},
 			graphs: {
-				files: [ 'lib/graphs/*/*' ]
+				files: [ 'lib/graphs/**' ]
 			},
 			options: {
 				livereload: true
