@@ -11,7 +11,6 @@ module.exports = {
         'jquery': true
     },
     "globals": {
-        'cytoscape': false,
-        'GlyElements': false
+        'cytoscape': false
     }
 };
