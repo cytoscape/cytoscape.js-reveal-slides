@@ -18,3 +18,13 @@
   border: 1em solid white;
   border-radius: 50%;
 }
+
+.logo-size {
+  font-size: 6em;
+}
+#logo {
+  border: 0px;
+  margin: 0px;
+  background: transparent;
+  box-shadow: none;
+}
