@@ -25,6 +25,7 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
 	</head>
 	<body>
 		<div class="reveal">
@@ -58,19 +59,24 @@
 						</div>
 					</section>
 				</section>
-				<section id="about" data-background-image="/lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
+				<section id="about" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
 					<h2>About</h2>
 					Cytoscape.js is an extensible, open-source graph theory library for the web.
 				</section>
 				<section>
 					<div>
-						<img src="/lib/img/cy3logoOrange.svg" id="logo" class="logo-size">
+						<img src="lib/img/cy3logoOrange.svg" id="logo" class="logo-size">
 						<i class="fa fa-twitter logo-size" aria-hidden="true"></i>
 					</div>
 				</section>
-				<section>
+				<section id="style">
 					Style and Data
-					<iframe class="stretch" data-src="/lib/graphs/graph1/graph1.html"></iframe>
+					<!--<iframe class="stretch graph" data-src="/lib/graphs/graph1/graph1.html"></iframe>-->
+					<div id="graph1-cy" class="stretch graph"></div>
+				</section>
+				<section id="animation">
+					Animation
+					<div id="graph2-cy" class="stretch graph"></div>
 				</section>
 			</div>
 		</div>
@@ -92,5 +98,12 @@
 				]
 			});
 		</script>
+
+		<!-- cytoscape -->
+		<script src="lib/js/cytoscape/cytoscape.min.js"></script>
+		<script src="lib/js/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/graphs/graph_data.js"></script>
+		<script src="lib/graphs/graph1/graph1.js"></script>
+		<script src="lib/graphs/graph2/graph2.js"></script>
 	</body>
 </html>
