@@ -16,12 +16,21 @@ div.graph {
   border-radius: 50%;
 }
 
-.logo-size {
+i.logo-size {
   font-size: 6em;
 }
-#logo {
-  border: 0px;
+img.plain.logo {
   margin: 0px;
   background: transparent;
-  box-shadow: none;
+}
+img.font-size {
+  height: 1em;
+}
+
+.org-list img.org {
+  float: left;
+  height: 4em;
+  background: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
 }
