@@ -10,3 +10,7 @@
 - Change link to slide sources to a Cytoscape-official repo (rather than my personal GitHub account)
 - (?) Move scripts to reveal.js dependencies section
 - (?) Reveal.js performs some scaling that seems to interfere with Cytoscape.js (mouse position wrong). Disable?
+
+# Revisions
+- I'm having trouble clearing the styles from graph4 (algorithms 1: traversal).
+  - Possibly related to the Promise nature of the slide; the same code works to clear on graph5 (which is synchronous)
