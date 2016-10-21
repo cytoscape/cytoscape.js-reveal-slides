@@ -16,7 +16,8 @@
     "cytoscape": "^2.7.9",
     "jquery": "^3.1.0",
     "lodash": "^4.15.0",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "cytoscape-cola": "^1.4.2"
   },
   "repository": {
     "type": "git",
