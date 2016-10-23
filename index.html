@@ -74,23 +74,27 @@
 				</section>
 				<section id="style" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
 					<h2>Style and Data</h2>
-					<div id="graph1-cy" class="stretch graph"></div>
+					<div id="graph1-cy" class="graph"></div>
 				</section>
 				<section id="animation" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
 					<h2>Animation</h2>
-					<div id="graph2-cy" class="stretch graph"></div>
+					<div id="graph2-cy" class="graph"></div>
 				</section>
 				<section id="layout" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
 					<h2>Layout</h2>
-					<div id="graph3-cy" class="stretch graph"></div>
+					<div id="graph3-cy" class="graph"></div>
 				</section>
 				<section id="algorithm1" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
-					<h2>Algorithms: Traversal with A*</h2>
-					<div id="graph4-cy" class="stretch graph"></div>
+					<h2>Algorithms: A*</h2>
+					<div id="graph4-cy" class="graph"></div>
 				</section>
 				<section id="algorithm2" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
 					<h2>Algorithms: Karger Stein</h2>
-					<div id="graph5-cy" class="stretch graph"></div>
+					<div id="graph5-cy" class="graph"></div>
+				</section>
+				<section id="algorithm3" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
+					<h2>Algorithms: Degree Centrality</h2>
+					<div id="graph6-cy" class="graph"></div>
 				</section>
 				<section id="conclusion" data-background-image="lib/img/cy3logoOrange.svg" data-background-position="top right" data-background-size="5em">
 					<h2>Conclusion</h2>
@@ -126,11 +130,12 @@
 			Reveal.initialize({
 				history: true,
 				// try to keep graphs working properly
-				//width: '100%',
-				//height: '100%',
-				//margin: 0,
-				//minScale: 1,
-				//maxScale: 1,
+				width: '100%',
+				height: '100%',
+				margin: 0,
+				minScale: 1,
+				maxScale: 1,
+				transition: 'none',
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
@@ -153,5 +158,6 @@
 		<script src="lib/graphs/graph3/graph3.js"></script>
 		<script src="lib/graphs/graph4/graph4.js"></script>
 		<script src="lib/graphs/graph5/graph5.js"></script>
+		<script src="lib/graphs/graph6/graph6.js"></script>
 	</body>
 </html>

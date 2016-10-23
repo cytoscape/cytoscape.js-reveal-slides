@@ -3,6 +3,7 @@ div.graph {
   border-style: solid;
   border-color: white;
   text-align: left;
+  height: 80vh;
 }
 
 #highlight-networks {
