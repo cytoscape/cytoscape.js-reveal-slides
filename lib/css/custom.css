@@ -1,7 +1,7 @@
 div.graph {
   border-width: 0.1em;
   border-style: solid;
-  border-color: white;
+  border-color: transparent;
   text-align: left;
   height: 80vh;
 }
